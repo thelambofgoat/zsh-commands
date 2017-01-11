@@ -1,0 +1,6 @@
+# Helpful zsh commands
+
+#git add, commit and push
+function gasp() {
+    git add . && git commit -m "hi" && git push origin master
+}
